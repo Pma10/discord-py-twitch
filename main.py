@@ -5,7 +5,7 @@ from discord.ext import commands
 app = commands.Bot(command_prefix='!',intents=discord.Intents.all())
 
 COGS = [
-  "tool"
+  "twitch"
 ]
 def get_COGS() -> typing.List[str]:
     return COGS
